@@ -10,3 +10,5 @@ Inspired by:
 1. Run `yarn build-extension`. This exports the site to `./out` and builds an `./extension/myExtension.zip` bundle.
 2. To add your extension in Chrome, open the URL chrome://extensions/ then click “Load unpacked” and select the `./out` folder.
 3. To run your extension, click the Extensions icon (🧩) in the Chrome toolbar and click on your extension.
+
+![Screenshot](docs/screenshot.png)
