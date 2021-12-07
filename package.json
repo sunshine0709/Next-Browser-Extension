@@ -5,12 +5,12 @@
   "author": "Tom Söderlund <tom@tomsoderlund.com>",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "clean": "rm -rf out/; rm ./extension/myExtension.zip",
-    "zip-extension": "cp ./public/manifest.json ./out/; mv ./out/_next ./out/next; cd ./out && grep -rli '_next' * | xargs -I@ sed -i '' 's/_next/next/g' @; mkdir ../extension; zip -r -FS ../extension/myExtension.zip *;",
-    "build-extension": "yarn clean; next build && yarn zip-extension"
+    "zip-extension": "cp ./public/manifest.json ./out/; mv ./out/_next ./out/next; cd ./out && grep -rli '_next' * | xargs -I@ sed -i '' 's/_next/next/g' @; mkdir ../extension; zip -r -FS ../extension/myExtension.zip *",
+    "build-extension": "yarn clean; next build && next export && yarn zip-extension"
   },
   "dependencies": {
     "next": "12.0.7",
