@@ -1,6 +1,6 @@
 {
-  "name": "Chrome Extension in Next.js",
-  "description": "The power of Next.js for building interactive Chrome extensions",
+  "name": "Browser extension in Next.js",
+  "description": "The power of Next.js for building interactive browser extensions",
   "version": "1.0",
   "manifest_version": 3,
   "action": {
