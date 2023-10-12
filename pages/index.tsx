@@ -1,15 +1,14 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/BrowserExtension.module.css'
 
 const BrowserExtensionPage: NextPage = () => {
   return (
-    <main className={styles.main}>
-      <h1 className={styles.title}>My Browser Extension</h1>
+    <main className={styles.container}>
+      <h1>My Browser Extension</h1>
 
-      <p className={styles.description}>
+      <p>
         Get started by editing{' '}
-        <code className={styles.code}>pages/index.tsx</code>
+        <code>pages/index.tsx</code>
       </p>
     </main>
   )
