@@ -2,7 +2,7 @@
   "name": "nextjs-browser-extension",
   "description": "Browser extension for Chrome and Firefox built in Next.js/React",
   "version": "0.1.0",
-  "author": "Tom Söderlund <tom@tomsoderlund.com>",
+  "author": "Andrii Savchenko <webstar0104@gmail.com>",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
